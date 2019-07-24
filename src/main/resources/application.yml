@@ -1,0 +1,19 @@
+server:
+  port: 8081
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://47.107.150.54:3306/hanfusi?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true&useSSL=true
+    username: root
+    password: Czq@123456
+  #    password: 123456
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    password: Czq@123456
+  #    password: 123456
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 30MB
+
